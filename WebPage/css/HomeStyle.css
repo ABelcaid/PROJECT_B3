@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* satrt nav bar-------------------------------------------------------------------------- */
+.nav{
+}
+.nav .top-nav{
+  border: 1px solid #DEDEDE;
+  display: flex;
+}
+.nav .top-nav p{
+  font-family: 'Poppins', sans-serif;
+  color: #7C7C7C;
+  font-size: 15px;
+  padding: 20px;
+}
+.nav .top-nav .p1{
+  margin-left: 340px;
+}
+.nav .top-nav .p2{
+  margin-left: 500px;
+}
+.nav .top-nav .p3{
+  margin-left: 7px;
+}
+.nav .top-nav .mail{
+  color: #38ADA9;
+}
+        /* satrt bottom nav bar----------------------------------------------- */
+.nav .bottom-nav{
+  display: flex;
+  padding-top: 31px;
+}
+.nav .bottom-nav img{
+width: 221px;
+height: 49px;
+margin-left: 325px;
+}
+.nav .bottom-nav ul{
+  display: flex;
+  margin-left:122px;
+  margin-top: 10px;
+}
+.nav .bottom-nav ul li{
+list-style: none;
+margin-left: 40px;
+}
+.nav .bottom-nav ul li a{
+text-decoration: none;
+color: #707070;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+.nav .bottom-nav ul .RAQ {
+background-color: #38ADA9;
+border-radius: 100px;
+padding: 20px;
+position: relative;
+top: -21px;
+}
+.nav .bottom-nav ul .RAQ a{
+font-size: 16px;
+color: #fff;
+}
+
+        /* end bottom nav bar ------------------------------------------------ */
+/* end bottom nav bar-------------------------------------------------------------------------- */
+/* satrt Slider-------------------------------------------------------------------------- */
+
+
+/* satrt footer-------------------------------------------------------------------------- */
+.footer{
+  /* border: 2px solid black; */
+  background-color: #FAFAFA;
+}
+.footer .infooter{
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 77px 370px 77px 370px;
+  justify-content:space-around;
+}
+.footer .infooter .Lo img{
+  width: 148px;
+}
+.footer .infooter .Lo p{
+color:#3E3E3E;
+font-family: 'Poppins',sans-serif;
+line-height: 122px;
+}
+.footer .infooter .Lo p span{
+font-weight: 600;
+}
+.footer .infooter h1{
+color: #5C5C5C;
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+
+
+}
+.footer .infooter .QV ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .QV ul li a {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+.footer .infooter .Services ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .Services ul li a {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+.footer .infooter .Contact ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .Contact ul li {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+.social-media{
+display:flex;
+}
+.social-media a{
+margin-right:13px;
+text-decoration: none;
+color: #38ADA9
+}
+/* end footer-------------------------------------------------------------------------- */
+/* media query  ------------------------------------------------------------- */
