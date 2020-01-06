@@ -70,19 +70,140 @@ color: #fff;
         /* end bottom nav bar ------------------------------------------------ */
 /* end bottom nav bar-------------------------------------------------------------------------- */
 /* satrt Slider-------------------------------------------------------------------------- */
-.slider .img{
+/* .slider{
   width: 100%;
-  height: 1060px;
-  border: 1px solid black;
-  background-image:url('s1.jpg');
+
+}
+.slider img{
+  width: 100%;
+  height: 760px;
+}
+.slider .recto{
+  position: absolute;
+  background-color: #38ADA9;
+  width: 100%;
+  height: 760px;
+  top: 19%;
+  left: 0;
+  opacity: 50%;
+}
+.slider .recto div{
+border: 1px solid black;
+margin: 10% 50% 10% 10%;
+
+}
+.slider .recto div h1{
+color:#FFF;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 55px;
+} */
+.slider .img{
+  background-image: linear-gradient(to left, rgba(56, 173, 169, 0.52), rgba(15, 153, 96, 0.73)),url('s1.jpg');
+  width: 100%;
+  height: 760px;
+  background-position: center;
+}
+.hea{
+position: absolute;
+top: 20%;
+left: 11%;
+margin: 10% 42% 10% 10%;
+}
+.slider .hea h1{
+  color:#FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 49px;
+}
+.slider .hea P{
+  color:#FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.slider .get{
+  color:#38ADA9;
+  position: absolute;
+  top: 73%;
+  left: 21%;
+  padding: 1%;
+  background-color:#fff;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* end Slider-------------------------------------------------------------------------- */
+/* satrt of Why Choose Us------------------------------------------------------------ */
+
+.section2{
+  width: 100%;
+  margin-top: 4%;
+}
+.section2 h1{
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+.section2 .WCU{
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 15% 3% 15%;
+}
+.section2 .WCU .fast{
+  width: 100%;
+  margin-right: 5%;
+
+}
+.section2 .WCU .time{
+  width: 100%;
+  margin-right: 5%;
+
+}
+.section2 .WCU .staff{
+  width: 100%;
+  /* margin-right: 5%; */
+
+}
+.section2 .WCU h2{
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10%
+
+}
+.section2 .WCU P{
+  text-align: center;
+  color:#7C7C7C;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.section2 .WCU .i{
+  background-color:#38ADA9;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  margin-left: 39%;
+}
+.section2 .WCU .i i{
+  text-align: center;
+  color:#FFF;
+  font-size: 46px;
+  padding: 34%;
 }
 
-
-
-
-
-
-
+/* start section Cleaning Services----------------------------------------  */
+.section3{
+  width: 100%;
+  border: 1px solid black;
+  background-color: #FAFAFA;
+}
 
 
 
@@ -346,15 +467,117 @@ color: #fff;
 
     /*end nav-bar  ------------------------------------------------------------ */
 
+/* start slider ---------------------------------------------------------------- */
+@media screen and (max-width: 1626px) {
+.slider .get{
+  top: 80%;
+}
+}
+@media screen and (max-width: 1207px) {
+.hea{
+top: 29%;
+margin: 10% 18% 10% 10%;
+}
+.slider .hea h1{
+  font-size: 48px;
+}
+.slider .get{
+  top: 82%;
+}
+}
+
+@media screen and (max-width: 1060px) {
+.hea{
+top: 20%;
+left: 5%;
+margin: 10% 8% 10% 6%;
+}
+.slider .hea h1{
+  font-size: 40px;
+}
+.slider .get{
+  top: 68%;
+  left: 10%;
+  padding: 1%;
+}
+}
 
 
 
+/* section 2 part -------------------------------------------------------------*/
+@media screen and (max-width: 1060px) {
 
+  .section2{
+    width: 100%;
+    margin-top: 4%;
+  }
+  .section2 h1{
+    color: #38ADA9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+  }
+  .section2 .WCU{
+    display: block;
+    justify-content: space-around;
+    padding: 3% 15% 3% 15%;
+  }
+  .section2 .WCU .fast{
+    width: 100%;
+    margin-right: 5%;
 
+  }
+  .section2 .WCU .time{
+    width: 100%;
+    margin-right: 5%;
 
+  }
+  .section2 .WCU .staff{
+    width: 100%;
+    /* margin-right: 5%; */
 
+  }
+  .section2 .WCU h2{
+    text-align: center;
+    color: #38ADA9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10%
 
-
+  }
+  .section2 .WCU P{
+    text-align: center;
+    color:#7C7C7C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .section2 .WCU .i{
+    background-color:#38ADA9;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    margin-left: 42%;
+    margin-top: 3%;
+  }
+  .section2 .WCU .i i{
+    text-align: center;
+    color:#FFF;
+    font-size: 46px;
+    padding: 34%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section2{
+    width: 100%;
+    margin-top: 4%;
+  }
+  .section2 .WCU .i{
+    margin-left: 30%;
+  }
+}
 
 
 
