@@ -35,8 +35,15 @@
 .nav .bottom-nav img{
 width: 221px;
 height: 49px;
+}
+.nav .bottom-nav .link{
 margin-left:18%;
 }
+
+
+
+
+
 .nav .bottom-nav ul{
   display: flex;
   margin-left:6%;
@@ -770,7 +777,8 @@ display: block;
   .nav .bottom-nav img{
   width: 215px;
   height: 42px;
-  margin-left:5%;
+  margin-left: -10%;
+  /* margin-left:5%; */
   padding-bottom: 4%;
   }
   .nav .bottom-nav ul{
@@ -1159,6 +1167,7 @@ text-align: center;
 text-decoration: none;
 text-align: center;
 }
+
 .footer .infooter .Contact ul {
   text-align: center;
 
