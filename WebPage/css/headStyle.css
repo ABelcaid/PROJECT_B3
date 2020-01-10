@@ -35,6 +35,8 @@
 .nav .bottom-nav img{
 width: 221px;
 height: 49px;
+}
+.nav .bottom-nav .link{
 margin-left:18%;
 }
 .nav .bottom-nav ul{
@@ -394,8 +396,8 @@ display: block;
 }
   .nav .bottom-nav img{
   width: 215px;
-  height: 42px;
-  margin-left:5%;
+  height: 60px;
+  margin-left: -10%;
   padding-bottom: 4%;
   }
   .nav .bottom-nav ul{
