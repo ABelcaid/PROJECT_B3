@@ -1,0 +1,690 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* satrt nav bar-------------------------------------------------------------------------- */
+.nav{
+}
+.nav .top-nav{
+  border: 1px solid #DEDEDE;
+  display: flex;
+}
+.nav .top-nav p{
+  font-family: 'Poppins', sans-serif;
+  color: #7C7C7C;
+  font-size: 15px;
+  padding: 1%;
+}
+.nav .top-nav .p1{
+  margin-left: 17%;
+}
+.nav .top-nav .p2{
+  margin-left: 25%;
+}
+.nav .top-nav .p3{
+  margin-left: 1%;
+}
+.nav .top-nav .mail{
+  color: #38ADA9;
+}
+        /* satrt bottom nav bar----------------------------------------------- */
+.nav .bottom-nav{
+  display: flex;
+  padding-top: 31px;
+}
+.nav .bottom-nav img{
+width: 221px;
+height: 49px;
+margin-left:18%;
+}
+.nav .bottom-nav ul{
+  display: flex;
+  margin-left:6%;
+  margin-top: 1%;
+}
+.nav .bottom-nav ul li{
+list-style: none;
+margin-left: 40px;
+}
+.nav .bottom-nav ul li a{
+text-decoration: none;
+color: #707070;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+.nav .bottom-nav .icon{
+display: none;
+}
+.nav .bottom-nav ul .RAQ {
+background-color: #38ADA9;
+border-radius: 100px;
+padding: 20px;
+position: relative;
+top: -21px;
+}
+.nav .bottom-nav ul .RAQ a{
+font-size: 16px;
+color: #fff;
+}
+
+        /* end bottom nav bar ------------------------------------------------ */
+/* end bottom nav bar-------------------------------------------------------------------------- */
+/* satrt Slider-------------------------------------------------------------------------- */
+/* .slider{
+  width: 100%;
+
+}
+.slider img{
+  width: 100%;
+  height: 760px;
+}
+.slider .recto{
+  position: absolute;
+  background-color: #38ADA9;
+  width: 100%;
+  height: 760px;
+  top: 19%;
+  left: 0;
+  opacity: 50%;
+}
+.slider .recto div{
+border: 1px solid black;
+margin: 10% 50% 10% 10%;
+
+}
+.slider .recto div h1{
+color:#FFF;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 55px;
+} */
+.slider .img{
+  background-image: linear-gradient(to left, rgba(56, 173, 169, 0.52), rgba(15, 153, 96, 0.73)),url('s1.jpg');
+  width: 100%;
+  height: 760px;
+  background-position: center;
+}
+.hea{
+position: absolute;
+top: 20%;
+left: 11%;
+margin: 10% 42% 10% 10%;
+}
+.slider .hea h1{
+  color:#FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 49px;
+}
+.slider .hea P{
+  color:#FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.slider .get{
+  color:#38ADA9;
+  position: absolute;
+  top: 73%;
+  left: 21%;
+  padding: 1%;
+  background-color:#fff;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* end Slider-------------------------------------------------------------------------- */
+/* satrt of Why Choose Us------------------------------------------------------------ */
+
+.section2{
+  width: 100%;
+  margin-top: 4%;
+}
+.section2 h1{
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+.section2 .WCU{
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 15% 3% 15%;
+}
+.section2 .WCU .fast{
+  width: 100%;
+  margin-right: 5%;
+
+}
+.section2 .WCU .time{
+  width: 100%;
+  margin-right: 5%;
+
+}
+.section2 .WCU .staff{
+  width: 100%;
+  /* margin-right: 5%; */
+
+}
+.section2 .WCU h2{
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10%
+
+}
+.section2 .WCU P{
+  text-align: center;
+  color:#7C7C7C;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.section2 .WCU .i{
+  background-color:#38ADA9;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  margin-left: 39%;
+}
+.section2 .WCU .i i{
+  text-align: center;
+  color:#FFF;
+  font-size: 46px;
+  padding: 34%;
+}
+
+/* start section Cleaning Services----------------------------------------  */
+.section3{
+  width: 100%;
+  border: 1px solid black;
+  background-color: #FAFAFA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end Slider-------------------------------------------------------------------------- */
+
+/* satrt footer-------------------------------------------------------------------------- */
+.footer{
+  /* border: 2px solid black; */
+  background-color: #FAFAFA;
+  margin-top: 20px;
+}
+.footer .infooter{
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 3% 17% 3% 17%;
+  justify-content:space-around;
+}
+.footer .infooter .Lo img{
+  width: 148px;
+}
+.footer .infooter .Lo p{
+color:#3E3E3E;
+font-family: 'Poppins',sans-serif;
+line-height: 122px;
+}
+.footer .infooter .Lo p span{
+font-weight: 600;
+}
+.footer .infooter h1{
+color: #5C5C5C;
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+
+
+}
+.footer .infooter .QV ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .QV ul li a {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+.footer .infooter .Services ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .Services ul li a {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+
+.footer .infooter .Contact ul {
+  list-style: none;
+  line-height: 30px;
+
+}
+.footer .infooter .Contact ul li {
+text-decoration: none;
+color: #3E3E3E;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+}
+.social-media{
+display:flex;
+}
+.social-media a{
+margin-right:13px;
+text-decoration: none;
+color: #38ADA9
+}
+/* end footer---------------------------------------------------------------- */
+/*satrt media query  -------------------------------------------------------- */
+    /*satrt nav-bar  ------------------------------------------------------------ */
+    @media screen and (max-width: 1330px) {
+    .nav .top-nav p{
+      font-size: 15px;
+      padding: 1%;
+    }
+    .nav .top-nav .p1{
+      margin-left: 10%;
+    }
+    .nav .top-nav .p2{
+      margin-left: 20%;
+    }
+    .nav .top-nav .p3{
+      margin-left: 1%;
+    }
+  }
+  @media screen and (max-width: 1490px) {
+  .nav .bottom-nav ul{
+    margin-left:2%;
+    margin-top: 1%;
+  }
+  .nav .bottom-nav ul li{
+  margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .nav .top-nav .p1{
+    margin-left: 5%;
+  }
+  .nav .top-nav .p2{
+    margin-left: 19%;
+  }
+  .nav .top-nav .p3{
+    margin-left: 1%;
+  }
+          /* satrt bottom nav bar----------------------------------------------- */
+  .nav .bottom-nav{
+    padding-top: 31px;
+  }
+  .nav .bottom-nav img{
+  margin-left:6%;
+  }
+  .nav .bottom-nav ul{
+    margin-left:2%;
+  }
+
+}
+@media screen and (max-width: 1160px) {
+  .nav .bottom-nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    float: center;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+}
+@media screen and (max-width: 1143px) {
+      /* satrt bottom nav bar----------------------------------------------- */
+  .nav .bottom-nav{
+  }
+  .nav .bottom-nav img{
+  margin-left:6%;
+  }
+  .nav .bottom-nav ul{
+    margin-left:3%;
+    margin-top: 1%;
+  }
+  .nav .bottom-nav ul .RAQ {
+  padding: 13px;
+  top: -14px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .nav .top-nav{
+    display: none;
+  }
+          /* satrt bottom nav bar----------------------------------------------- */
+  .nav .bottom-nav{
+display: block;
+}
+  .nav .bottom-nav img{
+  width: 215px;
+  height: 42px;
+  margin-left:5%;
+  padding-bottom: 4%;
+  }
+  .nav .bottom-nav ul{
+    display:none;
+  }
+
+  .nav .bottom-nav ul li{
+  list-style: none;
+  line-height: 76px;
+  margin: 0;
+
+  }
+  .nav .bottom-nav ul li a{
+  text-decoration: none;
+  color: #707070;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding-left:47px;
+  }
+  .nav .bottom-nav ul li:hover {
+  background-color: #38ada9;
+}
+.nav .bottom-nav ul li a:hover {
+color: #fff;
+}
+  .nav .bottom-nav .icon{
+  display: inline;
+  position: absolute;
+  top: 3%;
+  left: 86%;
+  color: #38ada9;
+  font-size: 42px;
+  }
+.nav .bottom-nav.responsive .icon {
+  display: inline;
+  position: absolute;
+  top: 3%;
+  left: 86%;
+  color: #38ada9;
+  font-size: 42px;
+  }
+.nav .bottom-nav.responsive ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 0%;
+  }
+
+  .nav .bottom-nav ul .RAQ {
+    width: 230px;
+    margin-left: 43px;
+    text-align: center;
+    line-height: 17px;
+  background-color: #38ADA9;
+  border-radius: 141px;
+  padding: 20px;
+  position: relative;
+  top: -7px;
+  margin-top: 3%;
+  font-size: 16px;
+  color: #fff;
+  }
+  .nav .bottom-nav ul .RAQ a{
+    padding-left:0;
+
+  }
+
+}
+
+    /*end nav-bar  ------------------------------------------------------------ */
+
+/* start slider ---------------------------------------------------------------- */
+@media screen and (max-width: 1626px) {
+.slider .get{
+  top: 80%;
+}
+}
+@media screen and (max-width: 1207px) {
+.hea{
+top: 29%;
+margin: 10% 18% 10% 10%;
+}
+.slider .hea h1{
+  font-size: 48px;
+}
+.slider .get{
+  top: 82%;
+}
+}
+
+@media screen and (max-width: 1060px) {
+.hea{
+top: 20%;
+left: 5%;
+margin: 10% 8% 10% 6%;
+}
+.slider .hea h1{
+  font-size: 40px;
+}
+.slider .get{
+  top: 68%;
+  left: 10%;
+  padding: 1%;
+}
+}
+
+
+
+/* section 2 part -------------------------------------------------------------*/
+@media screen and (max-width: 1060px) {
+
+  .section2{
+    width: 100%;
+    margin-top: 4%;
+  }
+  .section2 h1{
+    color: #38ADA9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+  }
+  .section2 .WCU{
+    display: block;
+    justify-content: space-around;
+    padding: 3% 15% 3% 15%;
+  }
+  .section2 .WCU .fast{
+    width: 100%;
+    margin-right: 5%;
+
+  }
+  .section2 .WCU .time{
+    width: 100%;
+    margin-right: 5%;
+
+  }
+  .section2 .WCU .staff{
+    width: 100%;
+    /* margin-right: 5%; */
+
+  }
+  .section2 .WCU h2{
+    text-align: center;
+    color: #38ADA9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10%
+
+  }
+  .section2 .WCU P{
+    text-align: center;
+    color:#7C7C7C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .section2 .WCU .i{
+    background-color:#38ADA9;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    margin-left: 42%;
+    margin-top: 3%;
+  }
+  .section2 .WCU .i i{
+    text-align: center;
+    color:#FFF;
+    font-size: 46px;
+    padding: 34%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section2{
+    width: 100%;
+    margin-top: 4%;
+  }
+  .section2 .WCU .i{
+    margin-left: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* satrt footer-------------------------------------------------------------- */
+@media screen and (max-width: 1400px) {
+  .footer{
+    margin-top: 20px;
+  }
+.footer .infooter{
+  /* border: 2px solid red; */
+  padding:3% 7% 3% 7%;
+}
+
+}
+@media screen and (max-width: 1060px) {
+
+.footer{
+  /* border: 2px solid black; */
+  margin-top: 20px;
+
+}
+.footer .infooter{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .infooter .Lo{
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer .infooter .Lo img{
+  width: 148px;
+}
+
+.footer .infooter .Lo p{
+text-align: center;
+}
+
+.footer .infooter h1{
+text-align: center;
+}
+.footer .infooter .QV,.Services,.Contact{
+  /* order: 1; */
+  margin-bottom: 50px;
+}
+.footer .infooter .QV ul {
+  text-align: center;
+}
+.footer .infooter .QV ul li a {
+text-decoration: none;
+text-align: center;
+
+}
+.footer .infooter .Services ul {
+  text-align: center;
+}
+.footer .infooter .Services ul li a {
+text-decoration: none;
+text-align: center;
+}
+.footer .infooter .Contact ul {
+  text-align: center;
+
+}
+.social-media{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.social-media a{
+text-align: center;
+}
+}
+
+
+/* end footer---------------------------------------------------------------- */
+/*end media query  ---------------------------------------------------------- */
