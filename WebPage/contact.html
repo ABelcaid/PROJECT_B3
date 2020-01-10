@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headStyle.css">
+    <script>
+function myFunction() {
+  var x = document.getElementById("bottom-nav");
+  if (x.className === "bottom-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "bottom-nav";
+  }
+}
+</script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+ 
+}
+
+input[type=button] {
+  background-color: #38ADA9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+}
+
+input[type=button]:hover {
+  background-color: #1D1E1E;
+}
+span{
+ float: left;
+ padding-left: 15px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 800px;
+  display: flex !;
+
+
+}
+label{
+  float: left;
+  padding-left: 10px;
+}
+#A2{
+  color: red;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px){
+  .container {
+    display: list-item !important;
+    width: 100%;
+
+  }
+  input{
+    display: list-item !important;
+    
+  }
+  #fname{
+    width: 100%;
+  }
+  #lname{
+     width: 100%;
+  }
+  #country{
+    width: 100%;
+  }
+  #subject{
+     width: 100%;
+  }
+
+}
+
+
+</style>
+<script type="text/javascript">
+  
+        function valider(){
+            // ***nom**
+         var n= document.getElementById('fname');
+         var t=0;
+   if (n.value == "")
+   {
+      document.getElementById('Firstname').innerText="* This is a required field";
+      document.getElementById('Firstname').style.color="red";
+      t.value=0;
+   }
+   else
+   {
+    document.getElementById('Firstname').innerHTML="";
+    t.value=1;
+
+   }
+     // ***prenom**
+         var prenom= document.getElementById('lname');
+   if (prenom.value == "")
+   {
+      document.getElementById('lastname').innerText="* This is a required field";
+      document.getElementById('lastname').style.color="red";
+      t.value=0;
+   }
+   else
+   {
+    document.getElementById('lastname').innerHTML="";
+    t=1;
+   }
+   var chek = document.getElementById('check');
+   if (chek.checked==false) {
+      alert("By submitting this form you agree to our privacy policy");
+      t.value=0;
+   }
+   if (t==1) {
+      document.location.href = "thankyou.html";
+   }
+ }
+</script>
+</head>
+<body>
+
+
+<div class="nav">
+      <div class="top-nav">
+        <p class="p1">Welcome To our Cleaning Company</p>
+        <p class="p2">Phone: +1 (800) 654-9647</p>
+        <p class="p3">Email: <span class="mail">info@betterclean.com</span></p>
+      </div>
+      <div class="bottom-nav" id="bottom-nav">
+        <!-- logo  ------------------------------------------------------------->
+        <img src="img/logo.png">
+        <!-- list -------------------------------------------------------------->
+        <ul id="u-l">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="RAQ"><a href="#">Request A Quote</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <!--
+    start slide
+   -->
+
+   <!--
+   start footer
+   -->
+   
+
+   </div>
+<br>
+<br>
+<br>
+<center>
+<h3 style="font-size: 35px; color: #38ADA9">Contact Form</h3></center>
+<br><br><br> <center>
+<div class="container">
+  <!-- <form action="/action_page.php"> -->
+    <form >
+    <div>
+    <label>First name</label><span id="Firstname"></span>
+    <input type="text" id="fname"  placeholder="Your name..">
+  </div>
+<div >
+    <label>Last Name</label><span id="lastname"></span>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  </div>
+
+   <div > <label>Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option selected value="ma">Morocco</option>
+      <option value="fr">France</option>
+    </select>
+</div>
+<div>
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
+  <div style="padding-left: 2%; display: flex;">
+  <input type="checkbox" id="check" style="float: left;">
+  <label style="font-size: 12px;">I have read and accept the<a href="https://www.google.Com" target="_blank" id="A2"> general conditions </a>of use, in particular the mention relating to the protection of personal data. *</label> <br><br>
+</div>
+
+    <input type="button" value="Submit" onclick="valider()">
+    <!-- <a href="www.google.com" target="_blank" onclick="valider()"> cc</a> -->
+  </form>
+</div></center>
+
+
+
+   <!--
+   start footer
+  -->
+
+   
+   <div class="footer">
+     <div class="infooter">
+       <div class="Lo">
+         <img class="logo" src="img/logo.png">
+         <br>
+         <br>
+         <img class="app" src="img/app.png">
+         <img class="app" src="img/play.png">
+         <p>&copy; Copyright 2020 <span>Betterclean</span>,  All Right Reserved</p>
+
+
+       </div>
+       <div class="QV">
+         <h1>Quick View</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Quote</a></li>
+          </ul>
+        </div>
+       <div class="Services">
+          <h1>Services</h1>
+            <ul>
+              <li><a>Commercial Cleaning</a></li>
+              <li><a>House Cleaning</a></li>
+              <li><a>Office Cleaning</a></li>
+              <li><a>Hotel Clening</a></li>
+              <li><a>Window Clening</a></li>
+            </ul>
+          </div>
+       <div class="Contact">
+            <h1>Contact Us</h1>
+            <ul>
+              <li>Phone: +1 (800) 654-9647</li>
+              <li>Email: info@betterclean.com</li>
+              <li>Fax: +1 (800) 654-9646</li>
+            </ul>
+            <ul class="social-media">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+          </div>
+      </div>
+   <!--
+   end footer
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
