@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headStyle.css">
+    <script>
+function myFunction() {
+  var x = document.getElementById("bottom-nav");
+  if (x.className === "bottom-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "bottom-nav";
+  }
+}
+</script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+ 
+}
+
+input[type=button] {
+  background-color: #38ADA9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+}
+
+input[type=button]:hover {
+  background-color: #1D1E1E;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 800px;
+  display: flex !;
+
+
+}
+label{
+  float: left;
+  padding-left: 10px;
+}
+#how-often a{
+  /*padding: 30px 5px;*/
+  /*width: 200px;
+  height: 100px;
+  margin: 5px 6px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color: #707070;
+  padding: 0px;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 10px;*/
+
+}
+#how-often a p{
+    /*padding: 0px;
+    margin: 0px;*/
+    /*margin-top: 30px;*/
+    /*padding: 10%;
+    font-size: 15px;
+    font-family: Poppins Medium;
+    color: #707070;*/
+}
+@media screen and (max-width: 767px){
+  .container {
+    display: list-item !important;
+    width: 100%;
+
+  }
+  input{
+    display: list-item !important;
+    
+  }
+  #fname{
+    width: 100%;
+  }
+  #lname{
+     width: 100%;
+  }
+   #address{
+     width: 100%;
+  }
+   #Number{
+     width: 100%;
+  }
+   #email{
+     width: 100%;
+  }
+   #time{
+     width: 100%;
+  }
+  #country{
+    width: 100%;
+  }
+  #subject{
+     width: 100%;
+  }
+
+}
+
+#often-a1:focus{
+  background-color: #38ADA9 !important;
+}
+#often-a2:focus{
+  background-color: #38ADA9 !important;
+}
+#often-a3:focus{
+  background-color: #38ADA9 !important;
+}
+#often-a4:focus{
+  background-color: #38ADA9 !important;
+}
+
+.often{
+  width: 25%;
+  height: 100px;
+  margin: 5px 6px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color: #707070;
+  padding: 0px;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-family: Poppins Medium;
+  color: #707070;
+}
+.error{
+  float: left;
+  margin-left: 20px;
+  color: red;
+}
+
+
+
+
+/*.often-a p{
+  color: red;
+}*/
+
+
+</style>
+<script type="text/javascript">
+  function validation(){
+    // var a = document.getElementById('fname');
+    // if (a.value=="") {
+    //   document.getElementById('e').innerText="relat";
+    //   alert("cc");
+    // }
+    // alert("cc");
+                // ***nom**
+    var Pre= document.getElementById('fname');
+    var Nom= document.getElementById('lname');
+    var Adr= document.getElementById('address');
+    var x=0;
+    var y=0;
+    
+    
+   
+    
+    //var test-tel = /^(+212)+([5-7]{1})+([0-9]{8})$/;
+
+
+
+    //valid-pre
+     if ( Pre.value == "")
+     {
+         document.getElementById('e').innerText=" * This field is required";
+        x=0;
+        //alert("PLeae enter you informations");
+     }
+     else
+     {
+       document.getElementById('e').innerHTML="";
+       x=1;
+      //alert("oui pre"); 
+     }
+
+
+
+     //valid-nem
+     if ( Nom.value == "")
+     {
+        document.getElementById('er-lname').innerText=" * This field is required";
+        x=0;
+        //alert("PLeae enter you informations");
+     }
+     else
+     {
+      document.getElementById('er-lname').innerHTML="";
+      x=1;
+      //alert("oui nam"); 
+     }
+
+
+
+
+     //valid-adresse
+     if ( Adr.value == "")
+     {
+         document.getElementById('er-address').innerText=" * This field is required";
+        x=0;
+     }
+     else
+     {
+       document.getElementById('er-address').innerHTML="";
+      x=1;
+     }
+
+
+
+
+
+
+     //valid-tel
+     var telephone= document.getElementById('Number');
+    var a = /^(00)[0-9]{10}$/;
+  //var a = /^(\+212)+([5-7]{1})+([0-9]{8})$/;    
+  
+   if ( telephone.value == "")
+   {
+      document.getElementById('spannum').innerText=" * This field is required";
+      x=0;
+     
+   }
+   else if (!a.test(telephone.value))
+   {
+      document.getElementById('spannum').innerText="Error";
+      y=0;
+
+   }
+   else
+   {
+    document.getElementById('spannum').innerHTML="";
+    x=1;
+    y=1;
+   }
+
+
+// Valid Email
+var Email=document.getElementById('email');
+// var a = /^([A-Za-z0-9]{*})+([@]{1})+([.]{1})+([A-Za-z]){3}$/;
+   if (Email.value=="")
+   {
+document.getElementById('er-email').innerText=" * This field is required";
+x=0;
+
+   }
+  // else if (!a.test(telephone.value))
+  else if (Email.value.indexOf('@')==-1)
+  {
+     document.getElementById('er-email').innerText="Error ";
+    y=0;
+  }
+  else{
+      document.getElementById('er-email').innerHTML="";
+      x=1;
+      y=1;
+   }
+
+// valid Time
+     
+var time=document.getElementById('time');
+ if ( time.value == "")
+     {
+        document.getElementById('er-time').innerText=" * This field is required";
+        x=0;
+        
+     }
+     else
+     {
+      document.getElementById('er-time').innerHTML="";
+      x=1;
+      
+     }
+ if (x==1 && y==1) {
+      document.location.href = "thankyou.html";
+   }
+
+  }
+</script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="top-nav">
+        <p class="p1">Welcome To our Cleaning Company</p>
+        <p class="p2">Phone: +1 (800) 654-9647</p>
+        <p class="p3">Email: <span class="mail">info@betterclean.com</span></p>
+      </div>
+      <div class="bottom-nav" id="bottom-nav">
+        <!-- logo  ------------------------------------------------------------->
+        <img src="img/logo.png">
+        <!-- list -------------------------------------------------------------->
+        <ul id="u-l">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="RAQ"><a href="quote.html">Request A Quote</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <!--
+    start slide
+   -->
+
+   <!--
+   start footer
+   -->
+   
+
+   </div>
+<br>
+<br>
+<br>
+<center>
+<h3 style="font-size: 35px; color: #38ADA9;">Book your cleaning service in 60 seconds</h3></center>
+<br><br><br> <center>
+<div class="container">
+  <!-- <form action="/action_page.php"> -->
+  <form>
+    <div>
+    <label >First name :</label><p class="error" id="e"></p>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+  </div>
+  
+    <div>
+    <label for="fname">Last Name :</label><span class="error" id="er-lname"></span>
+    <input type="text" id="lname" name="lirstname" placeholder="Your last name..">
+  </div>
+  
+<div>
+    <label for="lname">Your address :</label><span class="error" id="er-address"></span>
+    <input type="text" id="address" name="lastname" placeholder="Your Address..">
+  </div>
+<div>
+    <label>Phone Number :</label>
+    <span class="error" id="spannum"></span> 
+    <input type="text" id="Number"  placeholder="Your Phone number..">
+  </div>
+  <div>
+    <label >E-mail :</label>
+    <span class="error" id="er-email"></span><br>
+    <input type="text" id="email" name="lastname" placeholder="Your E-mail..">
+  </div>
+
+   <div>
+    <label>When would you like us to come?</label>
+    <span class="error" id="er-time"></span>
+    <input type="text" id="time" name="lastname" placeholder="Please Enter a Day..">
+  </div>
+
+<div > <label for="country">Select your time :</label><span class="error" id="er-country"></span>
+    <select id="country" name="country">
+      <option value="am">8:00 AM</option>
+      <option value="aam">9:00 AM</option>
+      <option value="aaam">10:00 AM</option>
+      <option value="aaaam">11:00 AM</option>
+      <option value="pm">13:00 PM</option>
+      <option value="ppm">14:00 PM</option>
+      <option value="pppm">15:00 PM</option>
+      <option value="ppppm">16:00 PM</option>
+      <option value="pppppm">17:00 PM</option>
+      <option value="timee">18:00 PM</option>
+    </select>
+</div>
+
+
+   <div > <label for="country">Country :</label><span class="error"></span>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option  value="usa">USA</option>
+      <option selected value="ma">Morocco</option>
+      <option value="fr">France</option>
+    </select>
+</div>
+<div>
+    <!-- <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+    <div>
+      <p>How Often?</p><br><br><br>
+      <p>
+        It's all about matching you with the perfect cleaner for your home. Scheduling is flexible. 
+        Cancel or reschedule anytime.
+      </p>
+      <div id="how-often" style="display: flex;/*background-color: red !important;*/justify-content: center;width: 100%;">
+        <!-- <a id="often-a1" href="#"><p style="">One time service daily</p></a>
+        <a id="often-a2" href="#"><p>Weekly 15% Discount</p></a>
+        <a id="often-a3" href="#"><p>Every 2 weeks 10% Discount</p></a>
+        <a id="often-a4" href="#"><p>Every 4 Weeks 10% Discount</p></a> -->
+        <!-- <input type="button" class="often" id="often-a1" value="One time service daily">
+        <input type="button" class="often" id="often-a2" value="One time service daily">
+        <input type="button" class="often" id="often-a3" value="One time service daily">
+        <input type="button" class="often" id="often-a4" value="One time service daily"> -->
+        <button type="button" class="often" id="often-a1">
+          <p>One time service daily</p>
+        </button>
+        <button type="button" class="often" id="often-a2">
+          <p>Weekly 15% Discount</p>
+        </button>
+        <button type="button" class="often" id="often-a3">
+          <p>Every 2 weeks 10% Discount</p>
+        </button>
+        <button type="button" class="often" id="often-a4">
+          <p>Every 4 Weeks 10% Discount</p>
+        </button>
+        <!-- <button type="button" class="often" id="often-a4">
+          <p>One time service daily</p>
+        </button> -->
+      </div>
+      
+    </div>
+  </div>
+ <br> <p>We will confirm your service request within 24 hours. Thank you very much!</p><br>
+
+<!-- book now button -->
+    <input type="button" value="Book Now" onclick="validation()">
+    <!-- end book now -->
+  </form>
+</div></center>
+
+
+
+   <!--
+   start footer
+  -->
+
+   
+   <div class="footer">
+     <div class="infooter">
+       <div class="Lo">
+         <img class="logo" src="img/logo.png">
+         <br>
+         <br>
+         <img class="app" src="img/app.png">
+         <img class="app" src="img/play.png">
+         <p>&copy; Copyright 2020 <span>Betterclean</span>,  All Right Reserved</p>
+
+
+       </div>
+       <div class="QV">
+         <h1>Quick View</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="quote.html">Quote</a></li>
+          </ul>
+        </div>
+       <div class="Services">
+          <h1>Services</h1>
+            <ul>
+              <li><a>Commercial Cleaning</a></li>
+              <li><a>House Cleaning</a></li>
+              <li><a>Office Cleaning</a></li>
+              <li><a>Hotel Clening</a></li>
+              <li><a>Window Clening</a></li>
+            </ul>
+          </div>
+       <div class="Contact">
+            <h1>Contact Us</h1>
+            <ul>
+              <li>Phone: +1 (800) 654-9647</li>
+              <li>Email: info@betterclean.com</li>
+              <li>Fax: +1 (800) 654-9646</li>
+            </ul>
+            <ul class="social-media">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+          </div>
+      </div>
+   <!--
+   end footer
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

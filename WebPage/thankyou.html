@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/headStyle.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+ 
+}
+
+input[type=button] {
+  background-color: #38ADA9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #1D1E1E;
+}
+span{
+ float: left;
+ padding-left: 15px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 800px;
+  display: flex !;
+
+
+}
+label{
+  float: left;
+  padding-left: 10px;
+}
+#A2{
+  color: red;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px){
+  .container {
+    display: list-item !important;
+    width: 100%;
+
+  }
+  input{
+    display: list-item !important;
+    
+  }
+  #fname{
+    width: 100%;
+  }
+  #lname{
+     width: 100%;
+  }
+  #country{
+    width: 100%;
+  }
+  #subject{
+     width: 100%;
+  }
+
+}
+
+
+</style>
+<script type="text/javascript">
+  
+        function valider(){
+            // ***nom**
+         var n= document.getElementById('fname');
+   if (n.value == "")
+   {
+      document.getElementById('Firstname').innerText="* This is a required field";
+      document.getElementById('Firstname').style.color="red";
+   }
+   else
+   {
+    document.getElementById('Firstname').innerHTML="";
+   }
+     // ***prenom**
+         var prenom= document.getElementById('lname');
+   if (prenom.value == "")
+   {
+      document.getElementById('lastname').innerText="* This is a required field";
+      document.getElementById('lastname').style.color="red";
+   }
+   else
+   {
+    document.getElementById('lastname').innerHTML="";
+   }
+   var chek = document.getElementById('check');
+   if (chek.checked==false) {
+      alert("ralaaat a3chiri");
+   }
+ }
+</script>
+</head>
+<body>
+
+
+<div class="nav">
+      <div class="top-nav">
+        <p class="p1">Welcome To our Cleaning Company</p>
+        <p class="p2">Phone: +1 (800) 654-9647</p>
+        <p class="p3">Email: <span class="mail">info@betterclean.com</span></p>
+      </div>
+      <div class="bottom-nav">
+        <!-- logo  ------------------------------------------------------------->
+        <img src="img/logo.png">
+        <!-- list -------------------------------------------------------------->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="RAQ"><a href="#">Request A Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--
+    start slide
+   -->
+
+   <!--
+   start footer
+   -->
+   
+
+   </div>
+<br>
+<br>
+<br>
+<center>
+  <img src="img/thank.png" alt="Flowers in Chania" width="460" height="380">
+<h3 style="font-size: 35px;">Thank you for getting in touch!</h3><br>
+<h4>We appreciate you contacting us. One of our Team member will get back in touch with you soon!<br><br>
+
+Have a great day!</h4>
+</center>
+<br><br><br> <center>
+ 
+
+
+
+   <!--
+   start footer
+  -->
+
+   
+   <div class="footer">
+     <div class="infooter">
+       <div class="Lo">
+         <img class="logo" src="img/logo.png">
+         <br>
+         <br>
+         <img class="app" src="img/app.png">
+         <img class="app" src="img/play.png">
+         <p>&copy; Copyright 2020 <span>Betterclean</span>,  All Right Reserved</p>
+
+
+       </div>
+       <div class="QV">
+         <h1>Quick View</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Quote</a></li>
+          </ul>
+        </div>
+       <div class="Services">
+          <h1>Services</h1>
+            <ul>
+              <li><a>Commercial Cleaning</a></li>
+              <li><a>House Cleaning</a></li>
+              <li><a>Office Cleaning</a></li>
+              <li><a>Hotel Clening</a></li>
+              <li><a>Window Clening</a></li>
+            </ul>
+          </div>
+       <div class="Contact">
+            <h1>Contact Us</h1>
+            <ul>
+              <li>Phone: +1 (800) 654-9647</li>
+              <li>Email: info@betterclean.com</li>
+              <li>Fax: +1 (800) 654-9646</li>
+            </ul>
+            <ul class="social-media">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+          </div>
+      </div>
+   <!--
+   end footer
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
