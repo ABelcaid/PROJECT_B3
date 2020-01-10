@@ -35,8 +35,15 @@
 .nav .bottom-nav img{
 width: 221px;
 height: 49px;
+}
+.nav .bottom-nav .link{
 margin-left:18%;
 }
+
+
+
+
+
 .nav .bottom-nav ul{
   display: flex;
   margin-left:6%;
@@ -199,10 +206,394 @@ margin: 10% 42% 10% 10%;
 }
 
 /* start section Cleaning Services----------------------------------------  */
+
 .section3{
-  width: 100%;
-  border: 1px solid black;
   background-color: #FAFAFA;
+  margin-top: 5%;
+}
+
+.section3  h1{
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 2%;
+}
+.section3 .all{
+  display: flex;
+  justify-content: space-around;
+  padding: 4% 17% 3% 17%;
+  flex-wrap: wrap;
+
+}
+.section3 .all .HC,.CC,.OC,.WC{
+  margin: 1%;
+}
+.section3 .all h2{
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 1%;
+}
+.section3 .all p{
+  text-align: justify;
+  color: #3E3E3E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  width: 272px;
+  margin-top: 6%;
+}
+.section3  h3{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.section3 a{
+background-color: #38ADA9;
+border-radius: 100px;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+padding: 20px;
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+}
+
+/* section4 part-------------------------------------------------------------- */
+
+.section4{
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 2% 22% 2% 22%;
+}
+
+.section4 .img{
+  margin-right: 2%;
+}
+.section4 .img img{
+height: 696px;
+}
+.section4 h2{
+color:#38ADA9;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 22px;
+}
+.section4 P{
+color:#7C7C7C;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 14px;
+}
+.section4 .about .A .p {
+color:#7C7C7C;
+font-family: 'Poppins', sans-serif;
+font-weight: 300i;
+font-size: 22px;
+}
+.section4 .about .A,.B,.C,.D {
+margin: 10%;
+}
+.section4 h3{
+background-color:#38ADA9;
+width: 140px;
+height: 26px;
+padding: 2%;
+margin-left: 10%;
+text-align: center;
+border-radius: 100px;
+
+}
+.section4 h3 a {
+color:#FFF;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+}
+.section4 .about .B,.C,.D{
+  display: flex;
+}
+
+.section4 .about i{
+  color: #38ADA9;
+  font-size: 60px;
+  margin-right: 10%;;
+
+}
+.section4 .about .C .c1{
+  margin-left: 6%;
+}
+/* end of section4 ---------------------------------------------------- */
+
+/* satrt of section5 ---------------------------------------------------- */
+ .section5 {
+   display: flex;
+   padding: 0% 17% 0% 17%;
+   flex-wrap: wrap;
+   background-color: #38ADA9;
+   height:180px;
+   justify-content:space-around;
+   margin-top: 4%;
+
+ }
+
+ .section5 p {
+   color:#FFF;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 32px;
+   padding-top: 5%;
+ }
+ .section5 h3{
+ background-color:#fff;
+ width: 140px;
+ height: 26px;
+ padding: 1%;
+ margin-top: 5%;
+ text-align: center;
+ border-radius: 100px;
+
+ }
+ .section5 h3 a {
+ color:#38ADA9;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ text-decoration: none;
+ }
+
+
+/* sart Section6-------------------------------------------------------------------------- */
+.section6 {
+  margin-top: 4%;
+}
+.section6 h1{
+  margin-top: 3%;
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+.section6 .team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding:  3% 15% 3% 15%;
+
+}
+.section6 .team img {
+  border-radius: 150px;
+  margin-top: 10%;
+}
+.section6 .team h2{
+  margin-top: 9%;
+  text-align: center;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+.section6 .team h3{
+  text-align: center;
+  color: #7C7C7C;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.section6 .team .social{
+list-style: none;
+display:flex;
+justify-content: center;
+}
+.section6 .team .social a{
+margin-right:13px;
+text-decoration: none;
+color: #7C7C7C;
+}
+
+/* satrt section 7 part ----------------------------------- */
+.section7 {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  padding: 4% 15% 7% 15%;
+  margin-top: 4%;
+
+}
+.section7 h1{
+  margin-bottom: 3%;
+  color: #38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+}
+.section7 .img{
+  margin-bottom: 3%;
+}
+.section7 .img img{
+  border-radius: 100px;
+}
+.section7 .img .quote{
+  background-color: #fff;
+}
+
+.section7 .img i{
+  color: #38ADA9;
+}
+.section7 p{
+  color: #3E3E3E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300i;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 1%;
+
+}
+.section7 h3{
+  background-color:#38ADA9;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600i;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+/* start section8 --------------------------------- */
+
+.section88 {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 4%;
+
+}
+.section88 .allimg{
+  margin-bottom: 5%;
+display: flex;
+flex-wrap: wrap;
+}
+.section88 h1{
+  color:#38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin: 2%;
+
+}
+.section88 .allimg .a{
+  background-image: url("S8-1.png");
+  width: 475px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.section88 .allimg .b{
+  background-image: url("S8-2.png");
+  width:  475px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section88 .allimg .c{
+  background-image: url("S8-3.png");
+  width:  475px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.section88 .allimg .d{
+  background-image: url("S8-4.png");
+  width:  475px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.section88 .allimg .t1,.t2,.t3,.t4{
+  width:  475pxpx;
+  height: 350px;
+  background-color:#38ADA9;
+  opacity: 0%;
+}
+.section88 .allimg p{
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 29%;
+}
+.section88 .allimg .a:hover .t1{
+  opacity: 65%;
+}
+.section88 .allimg .b:hover .t2{
+  opacity: 65%;
+}
+.section88 .allimg .c:hover .t3{
+  opacity: 65%;
+}
+.section88 .allimg .d:hover .t4{
+  opacity: 65%;
+}
+
+
+
+
+
+
+/* start section 9 ------------------------ */
+.section9{
+  margin-top: 4%;
+
+}
+.section9 h1{
+  color:#38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 2%;
+}
+.section9  .blog{
+  display: flex;
+  justify-content:space-between;
+  padding: 3% 20% 5% 20%;
+  flex-wrap: wrap;
+}
+.section9  .blog .b1,.b2,.b3{
+  width: 360px;
+}
+.section9  .blog h2{
+  color:#38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+.section9  .blog p{
+  color:#3E3E3E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 
@@ -221,15 +612,6 @@ margin: 10% 42% 10% 10%;
 
 
 
-
-
-
-
-
-
-
-
-/* end Slider-------------------------------------------------------------------------- */
 
 /* satrt footer-------------------------------------------------------------------------- */
 .footer{
@@ -395,7 +777,8 @@ display: block;
   .nav .bottom-nav img{
   width: 215px;
   height: 42px;
-  margin-left:5%;
+  margin-left: -10%;
+  /* margin-left:5%; */
   padding-bottom: 4%;
   }
   .nav .bottom-nav ul{
@@ -468,6 +851,10 @@ color: #fff;
     /*end nav-bar  ------------------------------------------------------------ */
 
 /* start slider ---------------------------------------------------------------- */
+@media screen and (max-width: 1920px) {
+.slider .get{
+  top: 80%;
+}
 @media screen and (max-width: 1626px) {
 .slider .get{
   top: 80%;
@@ -487,7 +874,11 @@ margin: 10% 18% 10% 10%;
 }
 
 @media screen and (max-width: 1060px) {
-.hea{
+  .slider {
+    margin-top: 10%;;
+  }
+  .hea{
+position:relative;
 top: 20%;
 left: 5%;
 margin: 10% 8% 10% 6%;
@@ -496,7 +887,9 @@ margin: 10% 8% 10% 6%;
   font-size: 40px;
 }
 .slider .get{
-  top: 68%;
+  margin-right: 63%;
+  position: relative;
+  top: 18%;
   left: 10%;
   padding: 1%;
 }
@@ -578,6 +971,109 @@ margin: 10% 8% 10% 6%;
     margin-left: 30%;
   }
 }
+
+
+
+/* section4 part ----------------------------------------------------------- */
+@media screen and (max-width: 666px) {
+.section4{
+  padding: 2% 0% 2% 0%;
+}
+
+.section4 .img{
+  margin-right: 2%;
+}
+.section4 .img img{
+width: 100%;
+}
+
+}
+
+/* section5 part -------------------------------------------------------------- */
+@media screen and (max-width: 1160px) {
+.section5 h3{
+padding: 1%;
+margin-top: 0%;
+
+}
+@media screen and (max-width: 635px) {
+
+.section5 {
+  padding: 0% 0% 0% 0%;
+}
+}
+
+/* saart section 7 part----------------------------- */
+@media screen and (max-width: 1060px){
+
+.section7 {
+  display: none;
+}
+
+}
+
+
+/* start section8 --------------------------------- */
+@media screen and (max-width: 1060px){
+  .section88{
+  display: none;
+  }
+}
+
+/* start section 9 ------------------------ */
+@media screen and (max-width: 1217px){
+
+.section9{
+  width: 100%;
+}
+.section9 h1{
+  color:#38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 2%;
+}
+.section9  .blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section9  .blog .b1,.b2,.b3{
+  width: 360px;
+}
+.section9  .blog h2{
+  color:#38ADA9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+.section9  .blog p{
+  color:#3E3E3E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -671,6 +1167,7 @@ text-align: center;
 text-decoration: none;
 text-align: center;
 }
+
 .footer .infooter .Contact ul {
   text-align: center;
 
