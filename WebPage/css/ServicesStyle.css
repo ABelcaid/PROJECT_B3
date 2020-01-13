@@ -606,8 +606,11 @@ margin: 10% 18% 10% 10%;
 
 @media screen and (max-width: 1060px) {
   .slider {
-    margin-top: 10%;;
+    margin-top: 10%;
   }
+  .slider .img{
+  margin-top: -10%;;
+}
   .hea{
 position:relative;
 top: 20%;
