@@ -597,6 +597,9 @@ margin: 10% 18% 10% 10%;
   .slider {
     margin-top: 10%;;
   }
+  .slider .img{
+  margin-top: -10%;;
+}
   .hea{
 position:relative;
 top: 20%;
