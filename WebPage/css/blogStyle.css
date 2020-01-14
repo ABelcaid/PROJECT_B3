@@ -253,7 +253,7 @@ p {
   font-size: 16px;
   max-width: 667px;
   margin: 71px auto;
- text-align: left;
+ text-align: center;
 }
 @media (min-width: 768px) {
 .entry-header {
