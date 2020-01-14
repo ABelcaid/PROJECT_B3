@@ -54,6 +54,7 @@ list-style: none;
 margin-left: 40px;
 }
 .nav .bottom-nav ul li a{
+  white-space: nowrap;
 text-decoration: none;
 color: #707070;
 font-family: 'Poppins', sans-serif;
@@ -436,6 +437,7 @@ color: #38ADA9
       margin-left: 1%;
     }
   }
+
   @media screen and (max-width: 1490px) {
   .nav .bottom-nav ul{
     margin-left:2%;
@@ -466,6 +468,16 @@ color: #38ADA9
     margin-left:2%;
   }
 
+}
+@media screen and (max-width: 1330px) {
+  .nav .bottom-nav .link {
+      margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1060px){
+.nav .bottom-nav .link {
+    margin-left: 18%;
+}
 }
 @media screen and (max-width: 1160px) {
   .nav .bottom-nav ul li a {
